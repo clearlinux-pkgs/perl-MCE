@@ -4,7 +4,7 @@
 #
 Name     : perl-MCE
 Version  : 1.884
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.884.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.884.tar.gz
 Summary  : 'Many-Core Engine for Perl providing parallel processing capabilities'
