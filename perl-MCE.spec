@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-MCE
-Version  : 1.888
-Release  : 12
-URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.888.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.888.tar.gz
+Version  : 1.889
+Release  : 13
+URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.889.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.889.tar.gz
 Summary  : 'Many-Core Engine for Perl providing parallel processing capabilities'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
@@ -20,7 +20,7 @@ BuildRequires : buildreq-cpan
 
 %description
 ## Many-Core Engine for Perl
-This document describes MCE version 1.888.
+This document describes MCE version 1.889.
 Many-Core Engine (MCE) for Perl helps enable a new level of performance by
 maximizing all available cores.
 
@@ -52,8 +52,8 @@ perl components for the perl-MCE package.
 
 
 %prep
-%setup -q -n MCE-1.888
-cd %{_builddir}/MCE-1.888
+%setup -q -n MCE-1.889
+cd %{_builddir}/MCE-1.889
 
 %build
 export http_proxy=http://127.0.0.1:9/
