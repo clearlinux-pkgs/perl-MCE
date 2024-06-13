@@ -6,10 +6,10 @@
 # autospec commit: fbcebd0
 #
 Name     : perl-MCE
-Version  : 1.891
-Release  : 17
-URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.891.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.891.tar.gz
+Version  : 1.896
+Release  : 18
+URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.896.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.896.tar.gz
 Summary  : 'Many-Core Engine for Perl providing parallel processing capabilities'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
@@ -22,7 +22,7 @@ BuildRequires : buildreq-cpan
 
 %description
 ## Many-Core Engine for Perl
-This document describes MCE version 1.891.
+This document describes MCE version 1.896.
 Many-Core Engine (MCE) for Perl helps enable a new level of performance by
 maximizing all available cores.
 
@@ -54,10 +54,10 @@ perl components for the perl-MCE package.
 
 
 %prep
-%setup -q -n MCE-1.891
-cd %{_builddir}/MCE-1.891
+%setup -q -n MCE-1.896
+cd %{_builddir}/MCE-1.896
 pushd ..
-cp -a MCE-1.891 buildavx2
+cp -a MCE-1.896 buildavx2
 popd
 
 %build
