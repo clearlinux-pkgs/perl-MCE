@@ -7,7 +7,7 @@
 #
 Name     : perl-MCE
 Version  : 1.897
-Release  : 19
+Release  : 20
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.897.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.897.tar.gz
 Summary  : 'Many-Core Engine for Perl providing parallel processing capabilities'
