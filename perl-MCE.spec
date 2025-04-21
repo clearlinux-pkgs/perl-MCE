@@ -7,7 +7,7 @@
 #
 Name     : perl-MCE
 Version  : 1.901
-Release  : 26
+Release  : 27
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.901.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-1.901.tar.gz
 Summary  : 'Many-Core Engine for Perl providing parallel processing capabilities'
